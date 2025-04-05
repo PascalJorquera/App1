@@ -1,13 +1,9 @@
 CC = gcc
-# CFLAGS = -InombreCarpeta 
-SRC = test.c metrics.c orders.c
-OUT = 1
+SRC = main.c metrics.c orders.c
+OUT = app1
 
-work:
+start:
 	$(CC)  $(SRC) -o $(OUT)
-
-test:
-	gcc -o test test.c orders.c metrics.c
 
 
 
